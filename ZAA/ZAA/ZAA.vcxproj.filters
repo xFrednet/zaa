@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{2c98b8a5-1838-40f0-8c78-6316aeacc4c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\models">
+      <UniqueIdentifier>{a6103f08-510b-41f5-b1c8-e09ab004c9ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\renderengien">
+      <UniqueIdentifier>{c826066d-edfa-41a5-97b8-dd5633f79665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\util">
+      <UniqueIdentifier>{fcef3736-fcfd-4bf5-b897-a4c539a998aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\shaders">
+      <UniqueIdentifier>{2f0d2184-2de9-4033-82ab-edd19dc23aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\textures">
+      <UniqueIdentifier>{4803bf45-8ee3-497d-ba7f-d010faad75a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\input">
+      <UniqueIdentifier>{d11749fe-201e-4e3f-8fa1-53c36a957170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\entity">
+      <UniqueIdentifier>{1d6a87d7-9baf-4430-8678-931599ed9ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\world">
+      <UniqueIdentifier>{b70c8564-49ba-43fa-aa51-c5a1c2c0df68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\util\lodepng">
+      <UniqueIdentifier>{9f849f90-c901-46f3-929c-c4fc51587660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\entity">
+      <UniqueIdentifier>{bf04c8f1-a94b-4e2f-be12-b92d7ca250c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\input">
+      <UniqueIdentifier>{b6e9df41-a7d5-42d1-89ab-7433fd06a2de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\models">
+      <UniqueIdentifier>{87350782-d514-4787-b18c-6fe90ecbce01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\renderEngien">
+      <UniqueIdentifier>{0446652e-15f3-490d-8104-8466871d5121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shaders">
+      <UniqueIdentifier>{2e8d53ea-f363-4848-8ccb-d4dcd68db7bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\textures">
+      <UniqueIdentifier>{e9c0694a-446a-4a3b-8233-fafd24cbdee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{ca1695bb-df25-4455-a8f4-d5196fc923b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util\lodepng">
+      <UniqueIdentifier>{e5c2d486-1a4f-4804-943d-cc4e330f0338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\world">
+      <UniqueIdentifier>{8237f3af-80a7-423b-aeb7-f0b4c1c4b66a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rawModel.cpp">
+      <Filter>Source Files\src\models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\texturedModel.cpp">
+      <Filter>Source Files\src\models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modelTexture.cpp">
+      <Filter>Source Files\src\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\displayManager.cpp">
+      <Filter>Source Files\src\renderengien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer.cpp">
+      <Filter>Source Files\src\renderengien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\staticShader.cpp">
+      <Filter>Source Files\src\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shader.cpp">
+      <Filter>Source Files\src\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debug.cpp">
+      <Filter>Source Files\src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loader.cpp">
+      <Filter>Source Files\src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model.cpp">
+      <Filter>Source Files\src\models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maths.cpp">
+      <Filter>Source Files\src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\keyboard.cpp">
+      <Filter>Source Files\src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mainRenderer.cpp">
+      <Filter>Source Files\src\renderengien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entity.cpp">
+      <Filter>Source Files\src\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera.cpp">
+      <Filter>Source Files\src\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\controlableCamera.cpp">
+      <Filter>Source Files\src\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LoadPNG\lodepng.cpp">
+      <Filter>Source Files\src\util\lodepng</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sprite.cpp">
+      <Filter>Source Files\src\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\terrain.cpp">
+      <Filter>Source Files\src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\terrainRenderer.cpp">
+      <Filter>Source Files\src\renderengien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mouse.cpp">
+      <Filter>Source Files\src\input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="fragmentShader.txt">
+      <Filter>Source Files\src\shaders</Filter>
+    </Text>
+    <Text Include="vertexShader.txt">
+      <Filter>Source Files\src\shaders</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\controlableCamera.h">
+      <Filter>Header Files\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera.h">
+      <Filter>Header Files\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entity.h">
+      <Filter>Header Files\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="src\keyboard.h">
+      <Filter>Header Files\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mouse.h">
+      <Filter>Header Files\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\texturedModel.h">
+      <Filter>Header Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model.h">
+      <Filter>Header Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rawModel.h">
+      <Filter>Header Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\displayManager.h">
+      <Filter>Header Files\renderEngien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mainRenderer.h">
+      <Filter>Header Files\renderEngien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer.h">
+      <Filter>Header Files\renderEngien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\terrainRenderer.h">
+      <Filter>Header Files\renderEngien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\staticShader.h">
+      <Filter>Header Files\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shader.h">
+      <Filter>Header Files\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sprite.h">
+      <Filter>Header Files\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\modelTexture.h">
+      <Filter>Header Files\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\loader.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\maths.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\debug.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LoadPNG\lodepng.h">
+      <Filter>Header Files\util\lodepng</Filter>
+    </ClInclude>
+    <ClInclude Include="src\terrain.h">
+      <Filter>Header Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ZAA.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

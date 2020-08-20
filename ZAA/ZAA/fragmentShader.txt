@@ -1,0 +1,10 @@
+#version 330 core
+
+in vec2 textureCoordsPass;
+
+uniform sampler2D textureSampler;
+
+void main(void) {
+	
+	gl_FragColor = texture(textureSampler, textureCoordsPass);
+}

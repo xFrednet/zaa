@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\camera.cpp" />
+    <ClCompile Include="src\controlableCamera.cpp" />
+    <ClCompile Include="src\debug.cpp" />
+    <ClCompile Include="src\displayManager.cpp" />
+    <ClCompile Include="src\entity.cpp" />
+    <ClCompile Include="src\keyboard.cpp" />
+    <ClCompile Include="src\loader.cpp" />
+    <ClCompile Include="src\LoadPNG\lodepng.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\mainRenderer.cpp" />
+    <ClCompile Include="src\maths.cpp" />
+    <ClCompile Include="src\model.cpp" />
+    <ClCompile Include="src\modelTexture.cpp" />
+    <ClCompile Include="src\mouse.cpp" />
+    <ClCompile Include="src\rawModel.cpp" />
+    <ClCompile Include="src\renderer.cpp" />
+    <ClCompile Include="src\shader.cpp" />
+    <ClCompile Include="src\sprite.cpp" />
+    <ClCompile Include="src\staticShader.cpp" />
+    <ClCompile Include="src\terrain.cpp" />
+    <ClCompile Include="src\terrainRenderer.cpp" />
+    <ClCompile Include="src\texturedModel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="fragmentShader.txt" />
+    <Text Include="vertexShader.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="src\camera.h" />
+    <ClInclude Include="src\controlableCamera.h" />
+    <ClInclude Include="src\debug.h" />
+    <ClInclude Include="src\displayManager.h" />
+    <ClInclude Include="src\entity.h" />
+    <ClInclude Include="src\keyboard.h" />
+    <ClInclude Include="src\loader.h" />
+    <ClInclude Include="src\LoadPNG\lodepng.h" />
+    <ClInclude Include="src\mainRenderer.h" />
+    <ClInclude Include="src\maths.h" />
+    <ClInclude Include="src\model.h" />
+    <ClInclude Include="src\modelTexture.h" />
+    <ClInclude Include="src\mouse.h" />
+    <ClInclude Include="src\rawModel.h" />
+    <ClInclude Include="src\renderer.h" />
+    <ClInclude Include="src\shader.h" />
+    <ClInclude Include="src\sprite.h" />
+    <ClInclude Include="src\staticShader.h" />
+    <ClInclude Include="src\terrain.h" />
+    <ClInclude Include="src\terrainRenderer.h" />
+    <ClInclude Include="src\texturedModel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ZAA.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{74A94851-E0E6-4CA4-8F84-FED81FE71B54}</ProjectGuid>
+    <RootNamespace>ZAA</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>E:\Libraries\Visual Studio Projects\ZAA\ZAA\res\textures;E:\Libraries\Visual Studio Projects\ZAA\ZAA\res;E:\Libraries\Visual Studio Projects\ZAA\ZAA\lib\glm;E:\Libraries\Visual Studio Projects\ZAA\ZAA\lib\soil;E:\Libraries\Visual Studio Projects\ZAA\ZAA\lib\glew;E:\Libraries\Visual Studio Projects\ZAA\ZAA\lib\freeglut;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;SOIL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\Libraries\Visual Studio Projects\ZAA\ZAA\lib\glm;E:\Libraries\Visual Studio Projects\ZAA\ZAA\lib\soil;E:\Libraries\Visual Studio Projects\ZAA\ZAA\lib\glew;E:\Libraries\Visual Studio Projects\ZAA\ZAA\lib\freeglut;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>E:\Libraries\Visual Studio Projects\ZAA\ZAA\res\textures;E:\Libraries\Visual Studio Projects\ZAA\ZAA\res;E:\Libraries\Visual Studio Projects\ZAA\ZAA\lib\glm;E:\Libraries\Visual Studio Projects\ZAA\ZAA\lib\soil;E:\Libraries\Visual Studio Projects\ZAA\ZAA\lib\glew;E:\Libraries\Visual Studio Projects\ZAA\ZAA\lib\freeglut;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;SOIL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\Libraries\Visual Studio Projects\ZAA\ZAA\lib\glm;E:\Libraries\Visual Studio Projects\ZAA\ZAA\lib\soil;E:\Libraries\Visual Studio Projects\ZAA\ZAA\lib\glew;E:\Libraries\Visual Studio Projects\ZAA\ZAA\lib\freeglut;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
